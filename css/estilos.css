@@ -286,6 +286,7 @@ input[type="submit"]:hover{
     background: #fff;
 }
 
+
 @media screen and (max-width:800px){
     .textos-hero h1{
         text-align: center;
@@ -327,7 +328,7 @@ input[type="submit"]:hover{
         margin-bottom: 20px;
     }
 	.card img{
-	width:60%;
+	width:80%;
 	 }
     /* galeria */
 
@@ -345,7 +346,10 @@ input[type="submit"]:hover{
         width: 98%;
         margin-bottom: 20px;
     }
-
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
 
 }
 
