@@ -42,6 +42,7 @@ body{
 .textos-hero p{
     font-size: 25px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .textos-hero a{
