@@ -327,8 +327,8 @@ input[type="submit"]:hover{
         margin-bottom: 20px;
     }
 	.card img{
-	width:35%;
-	
+	width:60%;
+	 }
     /* galeria */
 
     .galeria-cont>img{
@@ -363,6 +363,10 @@ input[type="submit"]:hover{
     .card{
         height: 380px;
     }
+
+    .card img{
+        width:95%;
+         }
 
     .website .contenedor-textos-main{
         margin-bottom: 30px;
