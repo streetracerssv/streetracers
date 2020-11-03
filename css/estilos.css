@@ -83,6 +83,11 @@ body{
     margin-bottom: 30px;
 }
 
+.titulo.left1{
+    text-align: center;
+    color: #fff;
+}
+
 .titulo.left{
     text-align: left;
     color: darkblue;
@@ -169,7 +174,7 @@ body{
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
     transition: transform 0.6s;
-    margin: 10px 0px;
+    margin: 10px 10px;
     background-color: #eaebf0e0;
 }
 
@@ -291,8 +296,215 @@ input[type="submit"]:hover{
     background: #fff;
 }
 
+@media screen and (max-width:1199px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    /* estilos generales */
+    .titulo{
+        font-size: 35px;
+        
+    }
 
-@media screen and (max-width:800px){
+    .titulo.left{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+    }
+
+    /* section */
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img{
+        width: 100%;
+    }
+
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+
+    /* Cards */
+
+    .card{
+        width: 90%;
+        height: 700px;
+        margin-bottom: 20px;
+        
+    }
+	.card img{
+    width:75%;
+    
+	 }
+    /* galeria */
+
+    .galeria-cont>img{
+        width: 48%;
+    }
+
+    /* last */
+
+    .last-section img{
+        width: 98%;
+    }
+
+    .last-section .contenedor-textos-main{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    /* estilos generales */
+    .titulo{
+        font-size: 35px;
+        
+    }
+
+    .titulo.left{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+    }
+
+    /* section */
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img{
+        width: 100%;
+    }
+
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+
+    /* Cards */
+
+    .card{
+        width: 90%;
+        height: 700px;
+        margin-bottom: 20px;
+        
+    }
+	.card img{
+    width:75%;
+    
+	 }
+    /* galeria */
+
+    .galeria-cont>img{
+        width: 48%;
+    }
+
+    /* last */
+
+    .last-section img{
+        width: 98%;
+    }
+
+    .last-section .contenedor-textos-main{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    /* estilos generales */
+    .titulo{
+        font-size: 35px;
+        
+    }
+
+    .titulo.left{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+    }
+
+    /* section */
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img{
+        width: 100%;
+    }
+
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+
+    /* Cards */
+
+    .card{
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+        
+    }
+	.card img{
+    width:75%;
+    
+	 }
+    /* galeria */
+
+    .galeria-cont>img{
+        width: 48%;
+    }
+
+    /* last */
+
+    .last-section img{
+        width: 98%;
+    }
+
+    .last-section .contenedor-textos-main{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 401px) and (max-width: 767px){
     .textos-hero h1{
         text-align: center;
         font-size: 50px;
@@ -372,7 +584,7 @@ input[type="submit"]:hover{
     }
 
     .card{
-        height: 475px;
+        height: 500px;
     }
 
     .card img{
