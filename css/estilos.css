@@ -70,9 +70,11 @@ body{
     overflow: hidden;
     margin: auto;
     padding: 0 0 80px 0;
+    
 }
 .contenedor{
     padding: 80px 0;
+    
 }
 
 .titulo{
@@ -153,7 +155,7 @@ body{
 /* Info */
 
 .info{
-    background: #000000;
+    background: #75a2a6;
     color: #fff;
 }
 
