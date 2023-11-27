@@ -312,6 +312,11 @@ input[type="submit"]:hover{
     .titulo.left{
         text-align: center;
     }
+    
+    .info{
+    background: #75a2a6;
+    color: #fff;
+}
 
     .info p{
         text-align: center;
@@ -382,6 +387,10 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
+.info{
+    background: #75a2a6;
+    color: #fff;
+}
     .info p{
         text-align: center;
     }
@@ -451,6 +460,11 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
+.info{
+    background: #75a2a6;
+    color: #fff;
+}
+
     .info p{
         text-align: center;
     }
@@ -516,6 +530,11 @@ input[type="submit"]:hover{
         font-size: 35px;
         
     }
+
+.info{
+    background: #75a2a6;
+    color: #fff;
+}
 
     .titulo.left{
         text-align: center;
@@ -584,6 +603,11 @@ input[type="submit"]:hover{
         font-size: 20px;
         text-align: center;
     }
+
+.info{
+    background: #75a2a6;
+    color: #fff;
+}
 
     .card{
         height: 650px;
